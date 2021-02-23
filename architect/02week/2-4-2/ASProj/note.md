@@ -20,5 +20,6 @@
 
 
 
-![](I:\imooc\code\architect\backup\ASProj\images\fragment问题解决.gif)
+<div align=center><img src="https://github.com/xpf-android/Kotlin/raw/master/architect/02week/2-4-2/ASProj/images/fragment问题解决.gif"/></div>
+
 

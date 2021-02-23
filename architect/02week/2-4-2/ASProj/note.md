@@ -12,7 +12,7 @@
 中间高度超过，凸起布局
 
 ![](https://github.com/xpf-android/Kotlin/raw/master/architect/02week/2-4-2/ASProj/images/HiTabBottomLayout封装与应用03.jpg)
-![](https://github.com/xpf-android/Kotlin/raw/master/architect/02week/2-4-2/ASProj/images/HiTabBottomLayout封装与应用03.jpg)
+![](https://github.com/xpf-android/Kotlin/raw/master/architect/02week/2-4-2/ASProj/images/HiTabBottomLayout封装与应用03.jpg style="zoom: 33%;")
 
 
 在开发人员选项中设置“不保留活动“选项，即用户离开后即消耗每个活动，导致应用切换到后台，再次切回前台时，会重新创建活动，执行的逻辑会显示默认的fragment，但是切换到后台时的fragment并没有销毁，导致发生重叠，效果如下。解决思路就是在onSaveInstanceState方法中保存当前fragment的信息(比如index)，在正常的初始化逻辑中，将默认显示fragment改为之前保存的fragment。具体逻辑实现参考项目代码。

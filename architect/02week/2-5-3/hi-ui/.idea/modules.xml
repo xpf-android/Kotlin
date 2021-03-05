@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="hi-ui/app" />
+      <module fileurl="file://$PROJECT_DIR$/hi-ui.iml" filepath="$PROJECT_DIR$/hi-ui.iml" group="hi-ui" />
+      <module fileurl="file://$PROJECT_DIR$/hilibrary/hilibrary.iml" filepath="$PROJECT_DIR$/hilibrary/hilibrary.iml" group="hi-ui/hilibrary" />
+      <module fileurl="file://$PROJECT_DIR$/hiui/hiui.iml" filepath="$PROJECT_DIR$/hiui/hiui.iml" group="hi-ui/hiui" />
+    </modules>
+  </component>
+</project>

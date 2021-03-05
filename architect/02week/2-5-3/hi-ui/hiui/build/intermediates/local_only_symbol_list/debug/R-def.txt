@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color hi_tab_top_selected_color
+dimen dp_10
+dimen dp_2
+dimen dp_3
+dimen dp_4
+dimen dp_5
+dimen dp_8
+dimen sp_10
+dimen sp_17
+dimen sp_23
+drawable shape_tab_top_indicator
+id iv_image
+id rl_root
+id tab_top_indicator
+id tv_icon
+id tv_name
+layout hi_bottom_layout_bg
+layout hi_tab_bottom
+layout hi_tab_top

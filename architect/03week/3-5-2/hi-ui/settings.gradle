@@ -1,0 +1,4 @@
+rootProject.name='hi-ui'
+include ':app'
+include ':hiui'
+include ':hilibrary'
